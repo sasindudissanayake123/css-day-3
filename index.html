@@ -6,17 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS day 3</title>
     <style>
-        .box {
-            background-color: aqua;
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .one, .two, .three, .four{
             padding: 20px;
-            border: 5px solid slateblue;
+            text-align: center;
+            font-size: 36px;
+            color: blue;
+            font-weight: bold;
+        }
+        .one{
+            background-color: aqua;
+        }
+        .two{
+            background-color: red;
+        }
+        .three{
+            background-color: greenyellow;
+        }
+        .four{
+            background-color: chartreuse;
+        }
+        .flexblox{
+            border: 2px solid;
         }
     </style>
 </head>
 
 <body>
-    <p class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, sit et? Nostrum, hic! Delectus quis explicabo
-        minima culpa. Repellat nostrum cumque unde iure velit veritatis!</p>
+    <div class="flexblox">
+    <p class="one">A</p>
+    <P class="two">B</P>
+    <P class="three">C</P>
+    <p class="four">D</p>
+    </div>
+    
 
 </body>
 
